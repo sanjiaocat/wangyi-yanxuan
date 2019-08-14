@@ -1,0 +1,8 @@
+
+1、禁止滚动条
+    html,body{
+        height:100%;
+        overflow:hidden;
+        //上面会禁止全部的滚动条    下面的可以有一个滚动条（可以自己选择方向）
+        overflow-y：auto；
+    }
